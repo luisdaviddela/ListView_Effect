@@ -11,7 +11,8 @@ namespace lve
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainList());
         }
 
         protected override void OnStart()
